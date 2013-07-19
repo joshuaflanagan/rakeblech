@@ -1,3 +1,3 @@
 class ScheduledJob < ActiveRecord::Base
-  attr_accessible :customer
+  belongs_to :customer
 end
